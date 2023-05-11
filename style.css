@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background:url(./pexels-efdal-yildiz-917494.jpg);
+    background-size: cover;
+    
+  
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+   
+}
+
+.nav-links{
+    position:absolute;
+    display:flex;
+    top:20px;
+    right:40px;
+    text-decoration:none;
+    justify-content: space-between;
+    width:50%;
+    text-decoration: none;
+    
+    
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    color:black;
+    text-decoration:none;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.nav-links a:hover{
+    display:underline;
+}
+
+.h1 h1{
+    display:flex;
+    position:absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+    color:rgba(30, 126, 133, 0.959);
+    
+}
+
+.p1{
+    margin-left: 45%;
+    margin-top: 25%;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.heading{
+    display:block;
+    position: absolute;
+    margin:5px;
+    bottom:500px;
+    align-items: center;
+    font-style: italic;
+}
+
+.about{
+    display:block;
+    position: absolute;
+    margin:10px;
+    align-items: center;
+    text-align: justify;
+    bottom:200px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    
+}
+
+.wrapper{
+    position:right;
+    width:440px;
+    height:440px;
+    right:20px;
+    margin-left: 40%;
+    margin-top: 7%;
+    background:transparent;
+    border:2px solid;
+    border-radius: 20px;
+}
+
+.form{
+    display:block;
+    margin-left: 25%;
+    margin-top: 30%;
+    
+}
+.form label{
+    font-size: 20px;
+}
+.form input{
+    width: 60%;
+}
+.form textarea{
+    width: 55%;
+}
+
+.icons{
+  margin-left: 10%;
+  
+}
+
+.fa{
+    display:top;
+    font-size:larger;
+    margin-inline:100px;
+    text-decoration: none;
+    bottom:30px;
+    margin-top: 10%;
+}
+
+.fa-linkedin{
+    background:#3B5998;
+    color:white;
+    font-size:50px;
+}
+
+.fa-facebook{
+    background:blue;
+    color:white;
+    font-size: 50px;
+}
+
+.fa-github{
+    background:black;
+    color:white;
+    font-size: 50px;
+}
+
+.figma{
+    position:absolute;
+    margin-top:5%;
+    margin-left: 10%;
+    cursor:pointer;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border:none;
+    border-radius: 50%;
+    color:#3B5998;
+    font-size: medium;
+
+
+}
+.img{
+    display:flex;
+    margin-top:11%;
+}
